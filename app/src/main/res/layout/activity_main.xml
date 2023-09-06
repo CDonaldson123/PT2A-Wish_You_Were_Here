@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/pass_task_2a"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+        <LinearLayout
+            android:id="@+id/imgRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingVertical="50dp">
+
+            <LinearLayout
+                android:id="@+id/image1layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:src="@drawable/bridge"
+                    android:contentDescription="@string/textview"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tasman_bridge" />
+
+                <TextView
+                    android:id="@+id/rating1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image2layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:src="@drawable/docks"
+                    android:contentDescription="@string/hobart_docks" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hobart_docks" />
+
+                <TextView
+                    android:id="@+id/rating2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imgRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingVertical="50dp">
+
+            <LinearLayout
+                android:id="@+id/image3layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:src="@drawable/mtwellington"
+                    android:contentDescription="@string/mt_wellington" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mt_wellington" />
+
+                <TextView
+                    android:id="@+id/rating3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image4layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:src="@drawable/port_arthur"
+                    android:contentDescription="@string/port_arthur" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/port_arthur" />
+
+                <TextView
+                    android:id="@+id/rating4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

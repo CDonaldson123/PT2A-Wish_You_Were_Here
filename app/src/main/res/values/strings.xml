@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PT2wishyouwerehere</string>
+    <string name="pass_task_2a">Pass Task 2A</string>
+    <string name="tasman_bridge">Tasman Bridge</string>
+    <string name="hobart_docks">Hobart Docks</string>
+    <string name="mt_wellington">Mt. Wellington</string>
+    <string name="port_arthur">Port Arthur</string>
+    <string name="title_activity_1">Activity1</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="title_activity_4">Activity4</string>
+    <string name="title_activity_actibity4">Actibity4</string>
+    <string name="textview">TextView</string>
+
+</resources>
